@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
@@ -17,97 +16,96 @@
     <header class="jumbotron">
         <h1 class="display-3">Work Day Scheduler</h1>
         <p class="lead">A simple calendar app for scheduling your work day</p>
-        <p id="currentDay" class="lead"></p>
+        <p id="currentTime">Time</p>
     </header>
     <div class="container">
         <!-- Timeblocks go here -->
-        <div class="row">
-            <div class="col past">
-                8 am
-            </div>
-            <div class="col past">
-                <textarea></textarea>
-            </div>
-            <div class="col past">
-                <p>save button</p>
+        <div class="row note">
+            <div class="col-12 input-group">
+                <span class="input-group-text"><span id="1" class='hidden'>8</span>8AM</span>
+                <textarea class="form-control" id="text1"aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col past">
-                9 am
-            </div>
-            <div class="col past">
-                <textarea>#</textarea>
-            </div>
-            <div class="col past">
-                <p>save button</p>
+        <div class="row note">
+            <div class="col-12 input-group">
+                <span class="input-group-text"><span id="2" class='hidden'>9</span>9AM</span>
+                <textarea class="form-control" id="text2" aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col present">
-                10 am
-            </div>
-            <div class="col present">
-                <textarea></textarea>
-            </div>
-            <div class="col present">
-                <p>save button</p>
-            </div>
-        </div>
-    
-        <div class="row">
-            <div class="col future">
-                11 am
-            </div>
-            <div class="col future">
-                <textarea></textarea>
-            </div>
-            <div class="col future">
-                <p>save button</p>
+        <div class="row note">
+            <div class="col-12 input-group">
+                <span class="input-group-text"><span id="3" class='hidden'>10</span>10AM</span>
+                <textarea class="form-control" id='text3' aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col future">
-                12 pm
-            </div>
-            <div class="col future">
-                <textarea></textarea>
-            </div>
-            <div class="col future">
-                <p>save button</p>
+        <div class="row note">
+            <div class="col-12 input-group">
+                <span class="input-group-text"><span id="4" class='hidden'>11</span>11AM</span>
+                <textarea class="form-control" id='text4' aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col future">
-                1 pm
-            </div>
-            <div class="col future">
-                <textarea></textarea>
-            </div>
-            <div class="col future">
-                <p>save button</p>
+        <div class="row note">
+            <div class="col-12 input-group">
+                <span class="input-group-text"><span id="5" class='hidden'>12</span>12PM</span>
+                <textarea class="form-control" id='text5' aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col future">
-                2 pm
-            </div>
-            <div class="col future">
-                <textarea></textarea>
-            </div>
-            <div class="col future">
-                <p>save button</p>
+        <div class="row note">
+            <div class="col-12 input-group"> 
+                <span class="input-group-text"><span id="6" class='hidden'>13</span>1PM</span>
+                <textarea class="form-control" id='text6' aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
             </div>
         </div>
+
+        <div class="row note">
+            <div class="col-12 input-group">
+                <span class="input-group-text"><span id="7" class='hidden'>14</span>2PM</span>
+                <textarea class="form-control" id='text7' aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+
+        <div class="row note">
+            <div class="col-12 input-group">
+                <span class="input-group-text"><span id="8" class='hidden'>15</span>3PM</span>
+                <textarea class="form-control" id='text8' aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+
+        <div class="row note">
+            <div class="col-12 input-group">
+                <span class="input-group-text"><span id="9" class='hidden'>16</span>4PM</span>
+                <textarea class="form-control" id='text9' aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+
+        <div class="row note">
+            <div class="col-12 input-group">
+                <span class="input-group-text"><span id="10" class='hidden'>17</span>5PM</span>
+                <textarea class="form-control" id="text10" aria-label="With textarea"></textarea>
+                <button class="btn btn-outline-secondary saveBtn i:hover" type="button" id="button-addon2"><i class="far fa-save"></i></button>
+            </div>
+        </div>
+
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
