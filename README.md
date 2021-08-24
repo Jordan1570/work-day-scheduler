@@ -28,7 +28,7 @@ https://github.com/Jordan1570/work-day-scheduler
 
 - After you input text into the text area, press the save button. It will save whatever you input into local storage. 
 
-![screenshot of workday scheduler webpage](Screenshot-42.png)
+![screenshot of workday scheduler webpage](Screenshot-48.png)
 
 
 
