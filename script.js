@@ -41,7 +41,7 @@ for (let i=8; i < 18; i++) {
     var eight = localStorage.getItem(i)
     console.log(eight)
     
-    $('#' + i ).val(eight)
+    $('#' + i ).val(eight)  
     console.log($("#" + i))
 
 }
